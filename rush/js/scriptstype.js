@@ -13,4 +13,4 @@ $(document).ready(function () {
     var typed = new Typed('.typing', options);
 
     $("#current-year").text(new Date().getFullYear());
-});
+})
