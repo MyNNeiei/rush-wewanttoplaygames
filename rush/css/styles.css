@@ -11560,7 +11560,7 @@ html {
   z-index: 999;
 }
 .containers {
-  width: 70%;
+  width: 100%;
   background-color: #ddd; /* Grey background */
   margin: 0 auto; /* horizontal centering */
 }
