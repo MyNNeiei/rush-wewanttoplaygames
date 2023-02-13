@@ -1,5 +1,5 @@
 .mycard{
-    box-shadow: 1px 2px 2px 1px rgb(62, 62, 62);
+    box-shadow: 5px 10px 10px 5px rgb(255, 255, 255);
     width: 30%;
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -10,11 +10,6 @@
 .mycard img{
     height: auto;
     width: 100%;
-}
-.mycard:hover{
-    transform: scale(1.01);
-    transition: transform 200ms ease-in-out;
-    z-index: 999;
 }
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -30,6 +25,9 @@ h1{
     flex-direction: row;
     justify-content: center;
     margin-top: 50px;
+}
+.mycard:hover{
+    box-shadow: 10px 10px 54px rgb(92, 171, 255);
 }
 body{
     background-image: url("https://c4.wallpaperflare.com/wallpaper/410/867/750/vector-forest-sunset-forest-sunset-forest-wallpaper-preview.jpg");
@@ -68,7 +66,7 @@ body{
     content: "";
     width: 30%;
     height: 2px;
-    background:aliceblue;
+    background:rgb(138, 200, 255);
     position: absolute;
     bottom: -4px;
     left: 20px;
@@ -160,9 +158,9 @@ body{
         height: auto;
         width: 80%;
     }
-    .mycard:hover{
-        transform: scale(1.01);
-        transition: transform 200ms ease-in-out;
-        z-index: 999;
+    body{
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/410/867/750/vector-forest-sunset-forest-sunset-forest-wallpaper-preview.jpg");
+        background-size: cover;
+        background-position: 50%;
     }
 }
