@@ -35,3 +35,71 @@ body{
     background-image: url("https://c4.wallpaperflare.com/wallpaper/410/867/750/vector-forest-sunset-forest-sunset-forest-wallpaper-preview.jpg");
     background-size: cover;
 }
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 0;
+    margin: 0;
+}
+.bar li{
+    list-style: none;
+    padding: 0 50px;
+    position: relative;
+}
+.bar li a{
+    text-decoration: none;
+    font-size : 30px;
+    font-weight: 300;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+    font-family:monospace;
+}
+.bar li i{
+    margin-right: 5px;
+}
+.bar li a:hover,
+.bar li a.active{
+    color: aliceblue;
+}
+
+.bar li a.active::after,
+.bar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background:aliceblue;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+.header{
+    display: grid;
+    align-items: center;
+    /* justify-content: space-between; /
+    grid-template-columns: 1fr 1fr;
+    / flex-direction: 1fr 1fr; */
+    padding: 5px 5px;
+    background-color: #98aeff;
+    box-shadow: 0 5px 10px rgb(0,0,0,0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
+}
+.header img:hover{
+    transform: scale(1.1);
+    transition: transform 200ms ease-in-out;
+    z-index: 999;
+}
+.header a img{
+  width: 200px;
+  height: auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
