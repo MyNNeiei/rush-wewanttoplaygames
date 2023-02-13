@@ -1,0 +1,37 @@
+.mycard{
+    box-shadow: 1px 2px 2px 1px rgb(62, 62, 62);
+    width: 30%;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 50px;
+    background-color: white;
+    text-align: center;
+}
+.mycard img{
+    height: auto;
+    width: 100%;
+}
+.mycard:hover{
+    transform: scale(1.01);
+    transition: transform 200ms ease-in-out;
+    z-index: 999;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mycard a{
+    text-decoration: none;
+}
+.mycard a i{
+    margin-left: 10px;
+}
+.card-all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+body{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/410/867/750/vector-forest-sunset-forest-sunset-forest-wallpaper-preview.jpg");
+    background-size: cover;
+}
