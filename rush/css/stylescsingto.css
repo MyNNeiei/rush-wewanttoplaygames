@@ -10693,7 +10693,7 @@ html {
   transition: transform 200ms ease-in-out;
 }
 
-.skills, .containers:hover {
+.skills{
   transform: scale(1.03);
   transition: transform 200ms ease-in-out;
   z-index: 999;
@@ -10708,4 +10708,9 @@ html {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+}
+.containers:hover{
+  transform: scale(1.03);
+  transition: transform 200ms ease-in-out;
+  z-index: 999;
 }
