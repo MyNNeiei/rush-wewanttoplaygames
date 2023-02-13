@@ -103,3 +103,66 @@ body{
     padding: 0;
     overflow-x: hidden;
 }
+@media screen and (max-width: 720px) {
+    .bar a:not(:first-child) {display: none;}
+    .bar a.icon {
+      float: right;
+      display: block;
+    }
+    .bar{
+        display: block;
+        align-items: left;
+        justify-content: left;
+        padding: 0 0 0 0;
+        margin: 0;
+    }
+    .bar li{
+        list-style: none;
+        padding: 20px 50px;
+        position: relative;
+    }
+    .bar li a{
+        text-decoration: none;
+        font-size : 16px;
+        font-weight: 300;
+        color: #1a1a1a;
+        transition: 0.3s ease;
+        font-family:monospace;
+    }
+    .bar li i{
+        margin-right: 5px;
+    }
+    .bar li a:hover,
+    .bar li a.active{
+        color: aliceblue;
+    }
+    
+    .bar li a.active::after,
+    .bar li a:hover::after{
+        content: "";
+        width: 20%;
+        height: 2px;
+        background:aliceblue;
+        position: absolute;
+        bottom: -4px;
+        left: 20px;
+    }
+    .mycard{
+        box-shadow: 1px 2px 2px 1px rgb(62, 62, 62);
+        width: 30%;
+        display: inline;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-right: 50px;
+        background-color: white;
+        text-align: center;
+    }
+    .mycard img{
+        height: auto;
+        width: 80%;
+    }
+    .mycard:hover{
+        transform: scale(1.01);
+        transition: transform 200ms ease-in-out;
+        z-index: 999;
+    }
+}
