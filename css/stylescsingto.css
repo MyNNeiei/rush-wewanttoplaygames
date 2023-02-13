@@ -10654,12 +10654,12 @@ html {
   padding-bottom: 5px; 
   color: white;
 }
-.py {width: 40%; background-color:lightskyblue;}
+.py {width: 30%; background-color:lightskyblue;}
 .html {width: 50%; background-color:red;}
 .css {width: 50%; background-color:orange;}
-.javscript {width: 30%; background-color:mediumspringgreen;}
-.dart{width: 30%; background-color:blue;}
-.flutter{width: 30%; background-color:green;}
+.javscript {width: 20%; background-color:mediumspringgreen;}
+.dart{width: 10%; background-color:blue;}
+.flutter{width: 10%; background-color:green;}
 
 #skills {
   padding: 100px 15px;
